@@ -1,8 +1,7 @@
-# START YOAST BLOCK
-# ---------------------------
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Allow: /wp-admin/admin-ajax.php
 
-Sitemap: http://tarotreadersguidecom.local/sitemap_index.xml
-# ---------------------------
-# END YOAST BLOCK
+Sitemap: https://tarotreadersguide.com/sitemap.xml
